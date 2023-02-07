@@ -1,3 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap');
+@font-face{
+  font-family:'Sporting';
+  src: url('../fonts/SportingGrotesque-Bold.otf');
+}
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
